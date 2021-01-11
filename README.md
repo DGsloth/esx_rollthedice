@@ -16,7 +16,7 @@ start esx_rollthedice
 
 ### Features
 - Ability to earn Money & Items
-- Ability to loose Money
+- Ability to lose Money
 - Cooldown between rolls (cl_rtd.lua - line 13 - change last number) (yes, relogging will reset the cooldown timer and allow people to roll again, i'm too lazy to fix)
 
 ### Information
