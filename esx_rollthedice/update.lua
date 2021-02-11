@@ -1,20 +1,8 @@
-PerformHttpRequest('https://github.com/DGsloth/esx_rollthedice/blob/main/version.txt', function(err, serverVersion, headers)
+PerformHttpRequest('https://raw.githubusercontent.com/DGsloth/esx_rollthedice/main/version.txt', function(err, serverVersion, headers)
     local version = '1.0'
     if string.find(serverVersion, version) == nil then
-        Wait(120)
-        print('\n')
-        print('||||||||||||||||||||||||||||||||||')
-        print('||||| ADDON: esx_rollthedice |||||')
-        print('|||||||||||| OUTDATED ||||||||||||')
-        print('||||||||||||||||||||||||||||||||||')
-        print('\n')
+        print('^4ADDON: ^3', GetCurrentResourceName(), ' ^7[^1OUTDATED^7]')
     else
-        Wait(120)
-        print('\n')
-        print('||||||||||||||||||||||||||||||||||')
-        print('||||| ADDON: esx_rollthedice |||||')
-        print('|||||||||||| UPDATED! ||||||||||||')
-        print('||||||||||||||||||||||||||||||||||')
-        print('\n')
+        print('^4ADDON: ^3', GetCurrentResourceName(), ' ^7[^2UPDATED^7]')
     end
 end)
