@@ -1,8 +1,8 @@
 # esx_rollthedice
-Resource created by [sloth](https://github.com/DGSloth)
+Resource created by [thatsimpressive](https://github.com/thatsimpressive)
 
 ### Download
-- Download https://github.com/DGSloth/esx_rollthedice/archive/main.zip
+- Download https://github.com/thatsimpressive/esx_rollthedice/archive/main.zip
 - Put it in any directory
 
 ### Installation
